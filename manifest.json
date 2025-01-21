@@ -1,8 +1,9 @@
 {
   "manifest_version": 3,
-  "name": "Color Blindness Corrector",
+  "name": "Color Blindness Pal",
+  "short_name": "Color-blind Pal",
   "version": "1.1",
-  "description": "Adjust website colors for different types of color blindness.",
+  "description": "Adjust website colors to aid color blindness.",
   "permissions": ["activeTab", "scripting", "storage"],
   "action": {
     "default_popup": "popup.html",
@@ -11,6 +12,12 @@
       "48": "icon.png",
       "128": "icon.png"
     }
+  },
+  "incognito": "split",
+  "icons": {
+    "16": "icon.png",
+    "48": "icon.png",
+    "128": "icon.png"
   },
   "content_scripts": [
     {

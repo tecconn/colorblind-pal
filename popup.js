@@ -7,11 +7,11 @@ document.addEventListener("DOMContentLoaded", () => {
 });
 
 // Apply selected mode and save it
-document.getElementById("apply").addEventListener("click", () => {
+document.getElementById("apply").addEventListener("click", async () => {
   const mode = document.querySelector('input[name="mode"]:checked').value;
 
   // Save the preference
-  chrome.storage.sync.set({ mode: mode });
+  await chrome.storage.sync.set({ mode: mode });
 
   // Apply the filter
   chrome.tabs.query({ active: true, currentWindow: true }, (tabs) => {

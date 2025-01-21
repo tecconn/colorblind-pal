@@ -3,10 +3,12 @@ body {
   width: 220px;
   margin: 10px;
 }
+
 h2 {
   font-size: 16px;
   margin-bottom: 10px;
 }
+
 button {
   margin-top: 10px;
   width: 100%;
@@ -16,6 +18,7 @@ button {
   border: none;
   cursor: pointer;
 }
+
 button:hover {
   background-color: #45a049;
 }
