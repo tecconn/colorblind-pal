@@ -5,9 +5,11 @@
 Google Chrome extension used to transform colors on websites into color-blind friendly pallets.
 
 ![Default](./docs/images/Ishihara-Default.jpg)
+
 ___Default Website Color Profile___
 
 ![Default](./docs/images/Ishihara-Protanopia.jpg)
+
 ___Protanopia Color Profile___
 
 ## Methodology
