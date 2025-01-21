@@ -58,10 +58,7 @@ A=\begin{bmatrix}
 1
 \end{bmatrix}
 \begin{bmatrix}
-255\\
-255\\
-255\\
-1
+255 & 255 & 255 & 1
 \end{bmatrix}
 =
 \begin{bmatrix}
