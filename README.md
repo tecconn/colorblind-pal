@@ -4,6 +4,8 @@
 
 Google Chrome extension used to transform colors on websites into color-blind friendly pallets.
 
+:computer: Available on the [Google Chrome Store](https://chromewebstore.google.com/detail/color-blindness-pal/iodikbnaicicgiohepnfakflaffdndak?authuser=0&hl=en) as an add-on.
+
 ![Default](./docs/images/Ishihara-Default.jpg)
 
 ___Default Website Color Profile___
