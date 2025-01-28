@@ -33,9 +33,9 @@ A=\begin{bmatrix}
 \end{bmatrix}
 , x=
 \begin{bmatrix}
-159/255\\
-43/255\\
-104/255\\
+159\\
+43\\
+104\\
 1
 \end{bmatrix}
 ```
@@ -48,21 +48,11 @@ A=\begin{bmatrix}
 0 & 0 & 0 & 1
 \end{bmatrix}
 \begin{bmatrix}
-0.623\\
-0.168\\
-0.407\\
+159\\
+43\\
+104\\
 1
 \end{bmatrix} =
-\begin{bmatrix}
-0.426\\
-0.422\\
-0.349\\
-1
-\end{bmatrix}
-\begin{bmatrix}
-255 & 255 & 255 & 1
-\end{bmatrix}
-=
 \begin{bmatrix}
 109\\
 108\\
