@@ -18,7 +18,7 @@ ___Protanopia Color Profile___
 
 This tool operates by applying a [feColorMatrix] transformation matrix against the color space of a page.
 
-For example, we may transform the color purple to a more distinguishable color for those who experience Deuteranopia.
+For example, we may transform the color purple to a more distinguishable color for those who experience Protanopia.
 
 Let $x$ be the vector representing the current normalized RGB color code and let $A$ be the transformation matrix to
 transform $x$ to a new color friendly space. Use $T(x)=Ax$ to calculate the resulting RGB vector. We calculate the
